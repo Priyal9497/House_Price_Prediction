@@ -727,7 +727,7 @@ Make sure:
 
 ## Future Improvements
 
-### ✅ Completed Improvements
+### Completed Improvements
 - [x] Use Scikit-learn `Pipeline` and `ColumnTransformer` (implemented in `model_building.ipynb`)
 - [x] Prevent data leakage by fitting preprocessing only on training data (done via pipeline)
 
@@ -753,12 +753,6 @@ Priyal Aggarwal
 
 ## Project Status
 
-```text
-
-**SHOULD BE:**
-```markdown
-## Project Status
-
 **Current Status:** **90% Complete**
 
 | Module | Status | Notes |
@@ -775,7 +769,6 @@ Priyal Aggarwal
 2. Update README with final RMSE/R² values
 3. Push to GitHub
 4. Optional: Deploy Streamlit app to cloud
-```
 
 ---
 
@@ -792,5 +785,3 @@ Priyal Aggarwal
 ## License
 
 This project is licensed under the MIT License.
-
-Note: The dataset used in this project comes from Kaggle's House Prices: Advanced Regression Techniques competition and is used for educational purposes.

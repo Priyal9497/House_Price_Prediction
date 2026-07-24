@@ -127,9 +127,9 @@ Hyperparameters for Ridge, Lasso, Random Forest, and XGBoost are tuned via `Grid
 - Some missing values are meaningful (e.g., no pool, garage, basement, or alley) rather than data gaps.
 
 ## Streamlit Web App
-```text
+
 `Module_5_Web_App/app.py` loads the saved model artifacts and lets users enter features (overall quality, living area, garage capacity, total square footage, year built, sale year, bathrooms, neighborhood) to get a predicted sale price. Unspecified fields default to the training data's median/mode values.
-```
+
 ---
 
 ---

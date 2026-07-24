@@ -499,17 +499,17 @@ cd House_Price_Prediction
 pip install -r requirements.txt
 
 # 2. Download dataset to data/raw/
-# Get train.csv and test.csv from Kaggle
+# Place train.csv and test.csv inside data/raw/
 
 # 3. Run model training
 jupyter notebook Module_4_Model_Building/model_building.ipynb
-# Run all cells to generate model artifacts
 
 # 4. Launch web app
 cd Module_5_Web_App
-streamlit run app.py'''
----
+streamlit run app.py
+```
 
+---
 
 ## Installation and Setup
 
@@ -520,28 +520,9 @@ git clone https://github.com/Priyal9497/House_Price_Prediction.git
 cd House_Price_Prediction
 ```
 
-
 ---
 
-### 2. Create a Virtual Environment
-
-For Windows:
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-For macOS/Linux:
-
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
----
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -806,9 +787,7 @@ Priyal Aggarwal
 - LinkedIn: www.linkedin.com/in/priyalaggarwal06 
 - GitHub: [@Priyal9497](https://github.com/Priyal9497)
 
-**Found this helpful?** ⭐ Star this repository!
-
-## License
+**Found this helpful?**  Star this repository!
 
 ## License
 

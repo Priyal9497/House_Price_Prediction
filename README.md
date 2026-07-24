@@ -127,14 +127,13 @@ Hyperparameters for Ridge, Lasso, Random Forest, and XGBoost are tuned via `Grid
 - Some missing values are meaningful (e.g., no pool, garage, basement, or alley) rather than data gaps.
 
 ## Streamlit Web App
-
+```text
 `Module_5_Web_App/app.py` loads the saved model artifacts and lets users enter features (overall quality, living area, garage capacity, total square footage, year built, sale year, bathrooms, neighborhood) to get a predicted sale price. Unspecified fields default to the training data's median/mode values.
+```
 ---
 
 ---
-## Quick Start
-
-**Want to try the app immediately?**
+## Installation and Setup
 
 ```bash
 # 1. Clone and setup
@@ -153,25 +152,7 @@ cd Module_5_Web_App
 streamlit run app.py
 ```
 ---
-
-## Installation and Setup
-
-```bash
-# Clone and install
-git clone https://github.com/Priyal9497/House_Price_Prediction.git
-cd House_Price_Prediction
-pip install -r requirements.txt
-
-# Add train.csv and test.csv to data/raw/
-
-# Train models (also generates artifacts for the web app)
-jupyter notebook Module_4_Model_Building/model_building.ipynb
-
-# Run the web app
-cd Module_5_Web_App
-streamlit run app.py
-```
-
+---
 **Requirements:** pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, scipy, streamlit, joblib, jupyter, ipykernel, plotly, statsmodels
 
 ---

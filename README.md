@@ -132,7 +132,6 @@ Hyperparameters for Ridge, Lasso, Random Forest, and XGBoost are tuned via `Grid
 
 ---
 
----
 ## Installation and Setup
 
 ```bash
@@ -151,7 +150,7 @@ jupyter notebook Module_4_Model_Building/model_building.ipynb
 cd Module_5_Web_App
 streamlit run app.py
 ```
----
+
 ---
 **Requirements:** pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, scipy, streamlit, joblib, jupyter, ipykernel, plotly, statsmodels
 
@@ -188,7 +187,6 @@ This model is trained on historical Ames, Iowa data and does not account for cur
 ---
 
 ## Future Improvements
-
 ### Completed Improvements
 - [x] Use Scikit-learn `Pipeline` and `ColumnTransformer` (implemented in `model_building.ipynb`)
 - [x] Prevent data leakage by fitting preprocessing only on training data (done via pipeline)
@@ -204,14 +202,11 @@ This model is trained on historical Ames, Iowa data and does not account for cur
 - [ ] Improve handling of unseen categorical values
 
 ---
-
 ## Author
-
 ```text
 Priyal Aggarwal
 ```
 ---
-
 ## Contact
 
 **Have questions or suggestions?**

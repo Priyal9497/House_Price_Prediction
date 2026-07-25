@@ -194,12 +194,12 @@ This model is trained on historical Ames, Iowa data and does not account for cur
 ### Completed Improvements
 - [x] Use Scikit-learn `Pipeline` and `ColumnTransformer` (implemented in `model_building.ipynb`)
 - [x] Prevent data leakage by fitting preprocessing only on training data (done via pipeline)
+- [x] Deploy app to Streamlit Cloud
 
 ### Planned Enhancements
 - [ ] Tune polynomial degree dynamically
 - [ ] Add SHAP explainability to web app
 - [ ] Add more input fields to Streamlit app
-- [ ] Deploy app to Streamlit Cloud
 - [ ] Compare with LightGBM and CatBoost
 - [ ] Add automated unit tests
 - [ ] Implement real-time market adjustment factors
